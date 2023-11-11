@@ -461,7 +461,7 @@ document.write(`
 <p>Wir wollen herausfinden, an welchen Stellen <span class="math notranslate nohighlight">\(x\)</span> der die Funktion den Wert <span class="math notranslate nohighlight">\(0\)</span> annimmt:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span><span class="o">=</span><span class="mi">2</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span><span class="o">=</span><span class="mi">3</span>
 </pre></div>
 </div>
 </div>
@@ -480,14 +480,14 @@ document.write(`
 <span class="expanded">Hide code cell source</span>
 </summary>
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">Latex</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">text</span><span class="se">{{</span><span class="s1">Gegeben ist </span><span class="se">}}</span><span class="s1"> </span><span class="si">{</span><span class="n">a</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">Latex</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="se">\\</span><span class="s1">text</span><span class="se">{{</span><span class="s1">Gegeben ist </span><span class="se">}}</span><span class="s1"> </span><span class="si">{</span><span class="n">a</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
 </details>
 <div class="cell_output docutils container">
 <div class="output text_latex math notranslate nohighlight">
-\[\text{Gegeben ist } 2\]</div>
+\[\text{Gegeben ist } 3\]</div>
 </div>
 </div>
 <div class="cell docutils container">
@@ -510,7 +510,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_latex math notranslate nohighlight">
-\[Für unseren Fall müssen wir das die das folgende Problem lösen: $2x^3+4x^2=0$\]</div>
+\[Für unseren Fall müssen wir das die das folgende Problem lösen: $3x^3+6x^2=0$\]</div>
 </div>
 </div>
 <p>Durch das Konzept des konsequenten Anstarrens sieht man, das ein <span class="math notranslate nohighlight">\(x\)</span> direkt ausgeklammert werden kann.</p>
@@ -522,7 +522,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_latex math notranslate nohighlight">
-\[x\cdot(2x^2+4x)=0\]</div>
+\[x\cdot(3x^2+6x)=0\]</div>
 </div>
 </div>
 <div class="cell docutils container">
@@ -533,7 +533,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_latex math notranslate nohighlight">
-\[Jetzt nutzen wir den Satz des Nullproduktes, sodass wir sagen können, dass der Ausdruck $x\cdot(2x^2+4x)$ genau dann $0$ wird, wenn $x=0$ ist oder wenn $2x^2+4x = 0$ ist\]</div>
+\[Jetzt nutzen wir den Satz des Nullproduktes, sodass wir sagen können, dass der Ausdruck $x\cdot(3x^2+6x)$ genau dann $0$ wird, wenn $x=0$ ist oder wenn $3x^2+6x = 0$ ist\]</div>
 </div>
 </div>
 <p>Die erste Nullstelle ist somit Bereits gefunden: <span class="math notranslate nohighlight">\(x_1=0\)</span>. Das Überprüfe ich eben noch:</p>
@@ -545,7 +545,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_latex math notranslate nohighlight">
-\[0\cdot(2\cdot 0^2+4\cdot 0)=0\]</div>
+\[0\cdot(3\cdot 0^2+6\cdot 0)=0\]</div>
 </div>
 </div>
 <div class="cell docutils container">
@@ -556,7 +556,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_latex math notranslate nohighlight">
-\[Das stimmt also schon mal. Bleibt die Frage offen, wann der Faktor $2x^2+4x=0$ wird\]</div>
+\[Das stimmt also schon mal. Bleibt die Frage offen, wann der Faktor $3x^2+6x=0$ wird\]</div>
 </div>
 </div>
 <div class="cell docutils container">
@@ -567,7 +567,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_latex math notranslate nohighlight">
-\[Hier kann ich schon wieder ein $x$ ausklammern. $x\cdot(2x+4)=0$\]</div>
+\[Hier kann ich schon wieder ein $x$ ausklammern. $x\cdot(3x+6)=0$\]</div>
 </div>
 </div>
 <div class="cell docutils container">
@@ -578,7 +578,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_latex math notranslate nohighlight">
-\[Hier kann ich schon wieder den Satz des Nullproduktes benutzen: $x\cdot(2x+4)$ ist genau dann $0$, wenn $x=0$ ist oder wenn $2x+4 = 0$ ist\]</div>
+\[Hier kann ich schon wieder den Satz des Nullproduktes benutzen: $x\cdot(3x+6)$ ist genau dann $0$, wenn $x=0$ ist oder wenn $3x+6 = 0$ ist\]</div>
 </div>
 </div>
 <p>Die zweite Nullstelle ist somit auch gefunden: <span class="math notranslate nohighlight">\(x_2 = 0\)</span>. Das Überprüfen schenke ich mir. Die Stelle <span class="math notranslate nohighlight">\(x=0\)</span> ist also eine doppelte Nullstelle.</p>
@@ -593,7 +593,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_latex math notranslate nohighlight">
-\[bei unserem Anfangsproblem: $2x^3+4x^2=0$ können wir auch direkt ein $x^2$ ausklammern\]</div>
+\[bei unserem Anfangsproblem: $3x^3+6x^2=0$ können wir auch direkt ein $x^2$ ausklammern\]</div>
 </div>
 </div>
 <div class="cell docutils container">
@@ -604,7 +604,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_latex math notranslate nohighlight">
-\[x^2\cdot (2x+4)=0\]</div>
+\[x^2\cdot (3x+6)=0\]</div>
 </div>
 </div>
 <div class="cell docutils container">
